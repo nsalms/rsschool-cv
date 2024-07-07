@@ -1,13 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Hello!</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV &mdash; Nikita Salms</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container">
+        <nav class="nav">
+          <ul>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code">Code</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#english">English</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="profile">
+      <div class="container">
+        <div class="profile-wrapper">
+          <div class="profile-photo">
+            <img src="./avatar.jpg" alt="Nikita Salms" />
+          </div>
+
+          <div class="profile-info">
+            <h1 class="profile-name">Nikita Salms</h1>
+
+            <h2>Frontend developer</h2>
+            <p class="profile-birthday">
+              July 28, 1998
+              <span class="age">25 years old</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="main">
+      <div class="container">
+        <div class="main-wrapper">
+          <section id="contacts" class="section">
+            <h2 class="section-title">Contacts</h2>
+
+            <ul class="section-list">
+              <li>
+                Telegram:
+                <a href="https://t.me/nikitasalms" target="_blank">
+                  @nikitasalms
+                </a>
+              </li>
+              <li>
+                Email:
+                <a href="mailto:salms.nikita@yandex.ru" target="_blank">
+                  salms.nikita@yandex.ru
+                </a>
+              </li>
+              <li>
+                Github:
+                <a href="https://github.com/nsalms" target="_blank">
+                  github.com/nsalms
+                </a>
+              </li>
+              <li>
+                Discord:
+                <b>Nikita Salms (@nsalms)</b>
+              </li>
+            </ul>
+          </section>
+
+          <section id="summary" class="section">
+            <h2 class="section-title">Summary</h2>
+            <p>
+              I'm a frontend developer with a passion for creating responsive
+              and user-friendly web applications. Proficient in HTML, CSS,
+              JavaScript, and various frameworks such as React and Vue.js.
+              Skilled in translating design mockups into clean and efficient
+              code. Strong attention to detail and a commitment to staying
+              updated on the latest web development trends. Excels in
+              collaborative team environments and thrives on delivering
+              high-quality solutions to meet user needs
+            </p>
+          </section>
+
+          <section id="skills" class="section">
+            <h2 class="section-title">Skills</h2>
+            <ul class="section-list">
+              <li>
+                Web-development:
+                <b>HTML5, CSS3, JavaScript, TypeScript</b>
+              </li>
+              <li>
+                Frameworks:
+                <b>React, Vue.js</b>
+              </li>
+              <li>
+                Version controls:
+                <b>Git, Github</b>
+              </li>
+              <li>
+                Graphics:
+                <b>Figma</b>
+              </li>
+            </ul>
+          </section>
+
+          <section id="code" class="section">
+            <h2 class="section-title">Code</h2>
+            <pre>
+function fibonacci(n) {
+  const sequence = [0, 1];
+
+  for (let i = 2; i &lt; n; i++) {
+    sequence[i] = sequence[i - 1] + sequence[i - 2];
+  }
+
+  return sequence;
+}</pre
+            >
+          </section>
+
+          <section id="courses" class="section">
+            <h2 class="section-title">Courses</h2>
+            <ul class="section-list">
+              <li>
+                Web-development:
+                <b>HTML5, CSS3, JavaScript, TypeScript</b>
+              </li>
+              <li>
+                Frameworks:
+                <b>React, Vue.js</b>
+              </li>
+              <li>
+                Version controls:
+                <b>Git, Github</b>
+              </li>
+              <li>
+                Graphics:
+                <b>Figma</b>
+              </li>
+            </ul>
+          </section>
+
+          <section id="projects" class="section">
+            <h2 class="section-title">Projects</h2>
+            <ul class="section-list">
+              <li>
+                <a href="https://nsalms.github.io/web-market/" target="_blank">
+                  Web Market
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://nsalms.github.io/mindbox-todo/"
+                  target="_blank"
+                >
+                  Mindbox Todo
+                </a>
+              </li>
+              <li>
+                <a href="https://nsalms.github.io/welbex/" target="_blank">
+                  WELBEX
+                </a>
+              </li>
+            </ul>
+          </section>
+
+          <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <p>
+              Bachelor's Degree &mdash; Information Systems and Technologies.
+              Moscow, 2022.
+            </p>
+          </section>
+
+          <section id="english" class="section">
+            <h2 class="section-title">English</h2>
+            <p>B2 &mdash; Upper-Intermediate</p>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-wrapper">
+          <p>
+            <span class="copyright">&copy; 2024</span>
+            <a href="https://github.com/nsalms" target="_blank">nsalms</a>
+          </p>
+          <div class="rs-logo">
+            <a href="https://rs.school/courses/javascript-ru" target="_blank">
+              <img src="./rs_school_js.svg" alt="RS School" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
